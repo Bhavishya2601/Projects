@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: white;
+}
+.cal{
+    padding-top: 50px;
+    background-color: black;
+    width: 340px;
+    height: 400px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+.head_cal{
+    font-size: 40px;
+    padding-top: 100px;
+    color: black;
+}
+.bar{
+    width: 270px;
+    height: 50px;
+    border: 2px white;
+    background-color: black;
+    text-align: right;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.cal_button{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+}
+.white{
+    background-color: #969696;
+}
+.yellow{
+    background-color: #ff9100;
+}
+.gray{
+    background-color: #2f2e2e;
+}

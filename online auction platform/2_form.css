@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inconsolata;
+}
+.nav1{
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.nav1 li {
+    display: inline;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+}
+.nav1 a:hover{
+    font-size: 27px;
+}
+.nav2{
+    height: 135px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav2 img{
+    padding-left: 10px;
+    padding-top: 25px;
+} 
+.flex0{
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+}
+#srhbutton{
+    margin-top: 42px;
+    border-radius: 50px;
+    height: 45px;
+    width: 130px;
+    margin-left: -140px;
+    border: none;
+    background-color: rgb(219, 55, 101);
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#srhbutton:hover, .submit:hover{
+    background-color: rgb(157, 214, 157);
+}
+.search{
+    margin-top: 35px;
+    margin-left: 180px;
+    border-radius: 50px;
+    height: 60px;
+    width: 600px; 
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #F3F6FD;
+    border: none;
+}
+main {
+    background-image: url("992.png");
+    background-size: cover;
+    height: 1000px;
+}
+.register_head{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+input{
+    width: 340px;
+    height: 58px;
+    border-radius: 50px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    border: none;
+}
+button {
+    background-color: rgb(219, 55, 101);
+    color: white;
+    width: 360px;
+    height: 58px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+button:hover {
+    background-color: rgb(120, 209, 120);
+}
+.fa-facebook, .fa-twitter, .fa-google{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 100px;
+}
+.end{
+    color: white;
+    padding-top: 130px;
+}

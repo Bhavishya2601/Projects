@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - OnlineAuction</title>
+    <link rel="stylesheet" href="2_form.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="nav1">
+            <font size="5px">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html" target="">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="2_form.html" target="_blank">SHOP</a></li>
+                    <li><a href="#">HELP</a></li>
+                </ul>
+            </font>
+        </nav>
+        <nav class="nav2">
+            <div class="flex0">
+                <div><a href="index.html"><img src="111.png"></a></div>
+                <div><input type="search" name="search" placeholder="Search here...." class="search"></div>
+                <div><input type="button" name="SEARCH" value="SEARCH" id="srhbutton"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="registration-form" style="padding-top: 280px;">
+            <center>
+                <div class="register_head">REGISTRATION</div>
+                <div class="form-group">
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password1" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirm_password1" name="confirm_password" placeholder="Confirm password"
+                        required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" onclick="check_Password()">SIGN UP</button>
+                </div>
+                <div>
+                    <p style="color: rgb(200, 200, 200); margin-bottom: 25px;">or enter with</p>
+                </div>
+                <div>
+                    <a href="#" class="fa fa-facebook"
+                        style="background-color: rgb(60, 60, 127);width: 15px;"></a>&ensp;<a href="#"
+                        class="fa fa-twitter" style="background-color: rgb(60, 193, 234);"></a>&ensp;<a href="#"
+                        class="fa fa-google" style="background-color: rgb(223, 65, 65);"></a>
+                </div>
+                <div class="end">
+                    &copy; 2023 All Rights Reserved Terms of Use and Privacy Policy
+                </div>
+            </center>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

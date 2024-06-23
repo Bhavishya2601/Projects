@@ -1,0 +1,33 @@
+@keyframes animateHeart {
+    from {
+     transform: scale(1);
+    }
+    to{
+     transform: scale(1.5);
+    }
+ }
+ h1{
+     font-size: 50px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding-bottom: 10px;
+     margin-left: 550px;
+ }
+ .cong{
+     padding-top: 130px;
+ }
+ body{
+     font-size: 20px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .img1{
+     position: absolute; bottom: auto; left: 690px;;
+     animation-name: animateHeart;
+     animation-duration: 800ms;
+     animation-iteration-count: infinite;
+ }
+ footer{
+   
+     font-family: 'Courier New', Courier, monospace;
+     font-size: medium;
+     color:rgb(37, 70, 4);
+ }

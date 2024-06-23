@@ -1,0 +1,371 @@
+@keyframes example{
+    from{
+        background-color: white;
+        color:rgb(219, 55, 101)
+    }
+    to{
+        background-color: rgb(219, 55, 101);
+        color: white;
+    }
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: inconsolata;
+    flex-wrap: wrap;
+}
+.nav1{
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.nav1 li {
+    display: inline;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+}
+.nav1 a:hover{
+    font-size: 27px;
+}
+.nav2{
+    height: 135px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav2 img{
+    padding-left: 10px;
+    padding-top: 25px;
+} 
+.flex0{
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+}
+#srhbutton{
+    margin-top: 42px;
+    border-radius: 50px;
+    height: 45px;
+    width: 130px;
+    margin-left: -140px;
+    border: none;
+    background-color: rgb(219, 55, 101);
+    color:white;
+    font-size: 20px;
+}
+
+#srhbutton:hover, .submit:hover{
+    background-color: rgb(157, 214, 157);
+}
+main{
+    background-color: #F3F6FD;
+}
+.search{
+    margin-top: 35px;
+    margin-left: 180px;
+    border-radius: 50px;
+    height: 60px;
+    width: 600px; 
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #F3F6FD;
+    border: none;
+}
+
+/* code for alert that are overflown */
+/* .cook1{
+    width: 50%;
+    height: 50%;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    z-index: 5;
+    margin-left: 20PX;
+    background-color: #F3F6FD;
+    background-color: white;
+}
+.accept{
+    
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.preferences{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+
+.closebtn{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover{
+    color: black;
+} */
+/*  */
+.register_button{
+    width: 230px;
+    top: 67%;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    left: 1%;
+    height: 61px;
+    position: absolute;
+    background-color: rgb(219, 55, 101);
+    color: white;
+    cursor: pointer;
+}
+.image{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.image2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.works_head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.work_line{
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    background-color: red;
+    height: 3px;
+}
+.work-box{
+    width: 300px;
+    height: 370px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.works_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.work-circle{
+    width:150px;
+    height:100px;
+    font-size: 300%;
+    color: rgb(219, 55, 101);
+    background-color: white;
+    padding-top: 50px;
+    border-radius: 50%;
+    margin-left: 72px;
+    font-weight: 800;
+    border: 2px solid rgb(208, 208, 208)
+}
+.work-circle:hover{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.circle-head{
+    font-weight: 600;
+    font-size: 20px;
+}
+.circle_line{
+    border: none;
+    border-radius: 20px;
+    width: 50px;
+    background-color: red;
+    height: 3px;
+    margin-left: 120px;
+}
+
+.container{
+    position: relative;
+    margin-top: 50px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.container .news_email {
+    position: absolute;
+    top: 60%;
+    left: 61%;
+    font-size: 20px;
+    width: 370px;
+    height: 67px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 50px;
+}
+.container .news_submit{
+    position: absolute;
+    top: 61.5%;
+    left: 76%;
+    font-size: 20px;
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(219, 55, 101);
+    color: white;
+}
+.news_submit:hover, #c1:hover, #seemore:hover, .register_button:hover{
+    background-color: rgb(157, 214, 157);
+}
+.head_scroll{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+.line_Scroll{
+    width: 150px;
+    margin-left: 650px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: rgb(219, 55, 101);
+    margin-top: 30px;
+}
+.practice2{
+    overflow: auto;
+    white-space: nowrap;
+    height: 650px;
+}
+.practice{
+    margin: 5px;
+    display: inline-block;
+    margin-top: 70px;
+}
+#a1{
+    height: 550px;
+    color: rgb(219, 55, 101);
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 27px;
+}
+#b1,#z1{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#z1{
+    color: black;
+}
+#c1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(219, 55, 101);
+    color:white;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    margin-top: 5px;
+}
+#seemore{
+    margin-left: 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: rgb(219, 55, 101);
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+.footer1{
+    background-color: rgb(49, 50, 54);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot1, .foot2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#email{
+    border-radius: 20px;
+    width: 200px;
+    height: 32px;
+    padding-left: 5px;
+}
+
+.submit{
+    background-color: rgb(219, 55, 101);
+    padding: 5px 5px 5px 5px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.footer2{
+    background-color: rgb(49,50,54);
+    color: white;
+}
+
+.foot3{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.foot3 li {
+    display: inline;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.foot3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#copy{
+    padding-left: 300px;
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-linkedin,.fa-github{
+    padding: 8px 8px;
+    text-decoration: none;
+    color:white;
+    height: 20px;
+}
