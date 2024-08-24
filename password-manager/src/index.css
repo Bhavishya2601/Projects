@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    input{
+        @apply border border-green-500 border-2 rounded-full text-black px-3 py-[1px] w-full; 
+    }
+    th{
+        @apply py-1
+    }
+    td{
+        @apply sm:py-1 border border-white text-center 
+    }
+}
