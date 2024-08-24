@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="bg-black text-white">
+    <div class="flex mx-0 2xl:mx-36 ">
+        <!-- first part of the page -->
+        <div class="xl:w-[18%] w-[70px]  flex-col justify-center p-4 fixed h-full">
+            <svg viewBox="0 0 24 24" aria-hidden="true"
+                class="cursor-pointer w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                <g>
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                    </path>
+                </g>
+            </svg>
+            <ul class="text-xl space-y-6 mt-6 h-full">
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913h6.638c.511 0 .929-.41.929-.913v-7.075h3.008v7.075c0 .502.418.913.929.913h6.639c.51 0 .928-.41.928-.913V7.904c0-.301-.158-.584-.408-.758zM20 20l-4.5.01.011-7.097c0-.502-.418-.913-.928-.913H9.44c-.511 0-.929.41-.929.913L8.5 20H4V8.773l8.011-5.342L20 8.764z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Home</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Explore</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Notifications</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5v13c0 1.381-1.119 2.5-2.5 2.5h-15c-1.381 0-2.5-1.119-2.5-2.5v-13zm2.5-.5c-.276 0-.5.224-.5.5v2.764l8 3.638 8-3.636V5.5c0-.276-.224-.5-.5-.5h-15zm15.5 5.463l-8 3.636-8-3.638V18.5c0 .276.224.5.5.5h15c.276 0 .5-.224.5-.5v-8.037z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Messages</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <g clip-path="url(#0-clip0_2592_269)" clip-rule="evenodd">
+                                <path
+                                    d="M18 4.1H6c-1.05 0-1.9.85-1.9 1.9v12c0 1.05.85 1.9 1.9 1.9h12c1.05 0 1.9-.85 1.9-1.9V6c0-1.05-.85-1.9-1.9-1.9zM6 2h12c2.21 0 4 1.79 4 4v12c0 2.21-1.79 4-4 4H6c-2.21 0-4-1.79-4-4V6c0-2.21 1.79-4 4-4z">
+                                </path>
+                                <path d="M6.68 17.8l8.108-11.58h2.532L9.21 17.8H6.68z"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="0-clip0_2592_269">
+                                    <rect height="20" rx="1" width="20" x="2" y="2"></rect>
+                                </clipPath>
+                            </defs>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Grok</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-1.608 1.732-2.762 4.389-2.869 8.248l-.03 1.083zM9.616 9.27C10.452 8.63 11 7.632 11 6.5 11 4.57 9.433 3 7.5 3S4 4.57 4 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73zm6.884 1.726c-3.264 0-6.816 2.358-7 8.977L9.471 21h14.057l-.029-1.027c-.184-6.618-3.736-8.977-7-8.977zm2.116-1.726C19.452 8.63 20 7.632 20 6.5 20 4.57 18.433 3 16.5 3S13 4.57 13 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Communities</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="cursor-pointer w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Premium</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M5.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C15.318 13.65 13.838 13 12 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C7.627 11.85 9.648 11 12 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H3.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46zM12 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM8 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">Profile</span>
+                </li>
+                <li class="flex gap-4 items-center cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                        <g>
+                            <path
+                                d="M3.75 12c0-4.56 3.69-8.25 8.25-8.25s8.25 3.69 8.25 8.25-3.69 8.25-8.25 8.25S3.75 16.56 3.75 12zM12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-4.75 11.5c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25S6 11.31 6 12s.56 1.25 1.25 1.25zm9.5 0c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25zM13.25 12c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="hidden xl:block">More</span>
+                </li>
+                <li class="bg-[#1D9BF0] w-full h-10 p-2 rounded-full flex justify-center">
+                    <button class="rounded-3xl font-bold hidden xl:block">Post</button>
+                    <div class="block xl:hidden">
+                        <span class="material-symbols-outlined">
+                            edit
+                        </span>
+                    </div>
+                </li>
+                <li class="justify-end absolute bottom-3">
+                    <div class="flex gap-7 items-center cursor-pointer">
+                        <div class="flex gap-2">
+                            <img class="w-[40px] h-[45px] rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1798013689481535488/l9R-pqwY_400x400.jpg">
+                            <div class="hidden xl:block">
+                                <div class="font-bold">Bhavishya Garg</div>
+                                <div class="text-gray-500 text-sm">@bhavishya2601</div>
+                            </div>
+                        </div>
+                        <div class="hidden xl:block">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- second part of the page -->
+        <div
+            class="md:w-[65%] md:mr-10 border border-x-gray-600 border-y-black flex-col xl:ml-[270px] ml-[70px] w-full">
+            <div class="flex justify-evenly py-3 relative">
+                <div class="h-1 w-10 absolute bottom-0 left-[23%] bg-blue-600"></div>
+                <div class="w-1/2 flex justify-center font-bold text-lg">For You</div>
+                <div class="w-1/2 flex justify-center font-bold text-lg">Following</div>
+            </div>
+            <hr class="border-gray-600">
+            <div class="p-4 flex">
+                <div>
+                    <img class="w-[40px] h-[45px] rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1798013689481535488/l9R-pqwY_400x400.jpg">
+                </div>
+                <div class="p-2 ml-2 w-full flex-col">
+                    <input class="w-full bg-black text-white outline-none focus:outline-none text-xl" type="text"
+                        placeholder="What is Happening?!">
+                    <div class="flex gap-1 pt-2 text-[#1D9BF0] cursor-pointer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="w-4 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1gs4q39 r-10ptun7 r-1janqcz"
+                            style="fill: #1D9BF0">
+                            <g>
+                                <path
+                                    d="M12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-.25 10.48L10.5 17.5l-2-1.5v-3.5L7.5 9 5.03 7.59c1.42-2.24 3.89-3.75 6.72-3.84L11 6l-2 .5L8.5 9l5 1.5-1.75 1.73zM17 14v-3l-1.5-3 2.88-1.23c1.17 1.42 1.87 3.24 1.87 5.23 0 1.3-.3 2.52-.83 3.61L17 14z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div>Everyone can reply</div>
+                    </div>
+                    <hr class="border-gray-600">
+                    <div class="flex justify-between mt-2">
+                        <div class="flex gap-2">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+                                style="fill: rgb(29, 155, 240);">
+                                <g>
+                                    <path
+                                        d="M3 5.5C3 4.119 4.119 3 5.5 3h13C19.881 3 21 4.119 21 5.5v13c0 1.381-1.119 2.5-2.5 2.5h-13C4.119 21 3 19.881 3 18.5v-13zM5.5 5c-.276 0-.5.224-.5.5v9.086l3-3 3 3 5-5 3 3V5.5c0-.276-.224-.5-.5-.5h-13zM19 15.414l-3-3-5 5-3-3-3 3V18.5c0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5v-3.086zM9.75 7C8.784 7 8 7.784 8 8.75s.784 1.75 1.75 1.75 1.75-.784 1.75-1.75S10.716 7 9.75 7z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+                                style="fill: rgb(29, 155, 240);">
+                                <g>
+                                    <path
+                                        d="M3 5.5C3 4.119 4.12 3 5.5 3h13C19.88 3 21 4.119 21 5.5v13c0 1.381-1.12 2.5-2.5 2.5h-13C4.12 21 3 19.881 3 18.5v-13zM5.5 5c-.28 0-.5.224-.5.5v13c0 .276.22.5.5.5h13c.28 0 .5-.224.5-.5v-13c0-.276-.22-.5-.5-.5h-13zM18 10.711V9.25h-3.74v5.5h1.44v-1.719h1.7V11.57h-1.7v-.859H18zM11.79 9.25h1.44v5.5h-1.44v-5.5zm-3.07 1.375c.34 0 .77.172 1.02.43l1.03-.86c-.51-.601-1.28-.945-2.05-.945C7.19 9.25 6 10.453 6 12s1.19 2.75 2.72 2.75c.85 0 1.54-.344 2.05-.945v-2.149H8.38v1.032H9.4v.515c-.17.086-.42.172-.68.172-.76 0-1.36-.602-1.36-1.375 0-.688.6-1.375 1.36-1.375z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+                                style="fill: rgb(29, 155, 240);">
+                                <g>
+                                    <path
+                                        d="M6 5c-1.1 0-2 .895-2 2s.9 2 2 2 2-.895 2-2-.9-2-2-2zM2 7c0-2.209 1.79-4 4-4s4 1.791 4 4-1.79 4-4 4-4-1.791-4-4zm20 1H12V6h10v2zM6 15c-1.1 0-2 .895-2 2s.9 2 2 2 2-.895 2-2-.9-2-2-2zm-4 2c0-2.209 1.79-4 4-4s4 1.791 4 4-1.79 4-4 4-4-1.791-4-4zm20 1H12v-2h10v2zM7 7c0 .552-.45 1-1 1s-1-.448-1-1 .45-1 1-1 1 .448 1 1z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+                                style="fill: rgb(29, 155, 240);">
+                                <g>
+                                    <path
+                                        d="M8 9.5C8 8.119 8.672 7 9.5 7S11 8.119 11 9.5 10.328 12 9.5 12 8 10.881 8 9.5zm6.5 2.5c.828 0 1.5-1.119 1.5-2.5S15.328 7 14.5 7 13 8.119 13 9.5s.672 2.5 1.5 2.5zM12 16c-2.224 0-3.021-2.227-3.051-2.316l-1.897.633c.05.15 1.271 3.684 4.949 3.684s4.898-3.533 4.949-3.684l-1.896-.638c-.033.095-.83 2.322-3.053 2.322zm10.25-4.001c0 5.652-4.598 10.25-10.25 10.25S1.75 17.652 1.75 12 6.348 1.75 12 1.75 22.25 6.348 22.25 12zm-2 0c0-4.549-3.701-8.25-8.25-8.25S3.75 7.451 3.75 12s3.701 8.25 8.25 8.25 8.25-3.701 8.25-8.25z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+                                style="fill: rgb(29, 155, 240);">
+                                <g>
+                                    <path
+                                        d="M6 3V2h2v1h6V2h2v1h1.5C18.88 3 20 4.119 20 5.5v2h-2v-2c0-.276-.22-.5-.5-.5H16v1h-2V5H8v1H6V5H4.5c-.28 0-.5.224-.5.5v12c0 .276.22.5.5.5h3v2h-3C3.12 20 2 18.881 2 17.5v-12C2 4.119 3.12 3 4.5 3H6zm9.5 8c-2.49 0-4.5 2.015-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.015 4.5-4.5-2.01-4.5-4.5-4.5zM9 15.5C9 11.91 11.91 9 15.5 9s6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5S9 19.09 9 15.5zm5.5-2.5h2v2.086l1.71 1.707-1.42 1.414-2.29-2.293V13z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+                                style="fill: rgb(29, 155, 240);">
+                                <g>
+                                    <path
+                                        d="M12 7c-1.93 0-3.5 1.57-3.5 3.5S10.07 14 12 14s3.5-1.57 3.5-3.5S13.93 7 12 7zm0 5c-.827 0-1.5-.673-1.5-1.5S11.173 9 12 9s1.5.673 1.5 1.5S12.827 12 12 12zm0-10c-4.687 0-8.5 3.813-8.5 8.5 0 5.967 7.621 11.116 7.945 11.332l.555.37.555-.37c.324-.216 7.945-5.365 7.945-11.332C20.5 5.813 16.687 2 12 2zm0 17.77c-1.665-1.241-6.5-5.196-6.5-9.27C5.5 6.916 8.416 4 12 4s6.5 2.916 6.5 6.5c0 4.073-4.835 8.028-6.5 9.27z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div>
+                            <button class="bg-[#1D9BF0] w-[60px] h-[33px] rounded-2xl font-bold">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-gray-600">
+            <!-- message starts -->
+            <div class="flex p-4 gap-3">
+                <div>
+                    <img class="w-[40px] h-[45px] rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1716572425641504768/_4DyxQQM_400x400.jpg">
+                </div>
+                <div class="w-full">
+                    <div class="flex justify-between">
+                        <div class="flex gap-2 sm:flex-row flex-col">
+                            <div class="font-bold hover:underline ">Mind Hustler</div>
+                            <div class="flex gap-2">
+                                <div class="text-gray-500">@HustleYourMind</div>
+                                <div class="text-gray-500">41m</div>
+                            </div>
+                        </div>
+                        <div>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>Deep Messages About Life:</div>
+                    <div>
+                        <img class="mt-4 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GRGdjzoW0AAQbv1?format=jpg&name=small">
+                    </div>
+                    <div class="flex justify-between text-gray-500 cursor-pointer pt-2">
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class="material-symbols-outlined">
+                                chat_bubble
+                            </span>
+                            9
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(0,186,124)]">
+                            <span class=" material-symbols-outlined">
+                                repeat
+                            </span>
+                            17
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(249,24,128)]">
+                            <span class=" material-symbols-outlined">
+                                favorite
+                            </span>
+                            137
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class=" material-symbols-outlined">
+                                bar_chart
+                            </span>
+                            2k
+                        </div>
+                        <div class="flex text-center gap-[1px] ">
+                            <span class=" material-symbols-outlined hover:text-[#1D9BF0]">
+                                bookmark
+                            </span>
+                            <span class="material-symbols-outlined hover:text-[#1D9BF0]">
+                                upload
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-gray-600">
+            <!-- message ends -->
+            <!-- message starts -->
+            <div class="flex p-4 gap-3">
+                <div>
+                    <img class="w-[40px] h-[45px] rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1641882406155329536/7_5axN35_400x400.jpg">
+                </div>
+                <div class="w-full">
+                    <div class="flex justify-between">
+                        <div class="flex gap-2 sm:flex-row flex-col">
+                            <div class="font-bold hover:underline ">Mindful Maven</div>
+                            <div class="flex gap-2">
+                                <div class="text-gray-500">@mindfulmaven_</div>
+                                <div class="text-gray-500">5d</div>
+                            </div>
+                        </div>
+                        <div>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        Does social media make you happier or sadder in general?
+                    </div>
+                    <div class="flex justify-between text-gray-500 cursor-pointer pt-2">
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class="material-symbols-outlined">
+                                chat_bubble
+                            </span>
+                            171
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(0,186,124)]">
+                            <span class=" material-symbols-outlined">
+                                repeat
+                            </span>
+                            220
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(249,24,128)]">
+                            <span class=" material-symbols-outlined">
+                                favorite
+                            </span>
+                            2.1k
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class=" material-symbols-outlined">
+                                bar_chart
+                            </span>
+                            1.2k
+                        </div>
+                        <div class="flex text-center gap-[1px] ">
+                            <span class=" material-symbols-outlined hover:text-[#1D9BF0]">
+                                bookmark
+                            </span>
+                            <span class="material-symbols-outlined hover:text-[#1D9BF0]">
+                                upload
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-gray-600">
+            <!-- message ends -->
+            <!-- message starts -->
+            <div class="flex p-4 gap-3">
+                <div>
+                    <img class="w-[40px] h-[45px] rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1613979890390339589/TCWKhCKx_400x400.jpg">
+                </div>
+                <div class="w-full">
+                    <div class="flex justify-between">
+                        <div class="flex gap-2 sm:flex-row flex-col">
+                            <div class="font-bold hover:underline ">Positivity Inspired</div>
+                            <div class="flex gap-2">
+                                <div class="text-gray-500">@inspiringmyday</div>
+                                <div class="text-gray-500">23h</div>
+                            </div>
+                        </div>
+                        <div>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>Deep Messages About Life:</div>
+                    <div>
+                        <img class="mt-4 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GRDnaePWsAAlCdR?format=jpg&name=large">
+                    </div>
+                    <div class="flex justify-between text-gray-500 cursor-pointer pt-2">
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class="material-symbols-outlined">
+                                chat_bubble
+                            </span>
+                            13
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(0,186,124)]">
+                            <span class=" material-symbols-outlined">
+                                repeat
+                            </span>
+                            28
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(249,24,128)]">
+                            <span class=" material-symbols-outlined">
+                                favorite
+                            </span>
+                            153
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class=" material-symbols-outlined">
+                                bar_chart
+                            </span>
+                            15k
+                        </div>
+                        <div class="flex text-center gap-[1px] ">
+                            <span class=" material-symbols-outlined hover:text-[#1D9BF0]">
+                                bookmark
+                            </span>
+                            <span class="material-symbols-outlined hover:text-[#1D9BF0]">
+                                upload
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-gray-600">
+            <!-- message ends -->
+            <!-- message starts -->
+            <div class="flex p-4 gap-3">
+                <div>
+                    <img class="w-[40px] h-[45px] rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1641882406155329536/7_5axN35_400x400.jpg">
+                </div>
+                <div class="w-full">
+                    <div class="flex justify-between">
+                        <div class="flex gap-2 sm:flex-row flex-col">
+                            <div class="font-bold hover:underline ">Mindful Maven</div>
+                            <div class="flex gap-2">
+                                <div class="text-gray-500">@mindfulmaven_ .</div>
+                                <div class="text-gray-500">5d</div>
+                            </div>
+                        </div>
+                        <div>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                                <g>
+                                    <path
+                                        d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="mt-4 rounded-2xl"
+                            src="https://pbs.twimg.com/media/GRBzOqqXIAAQ2X2?format=png&name=small">
+                    </div>
+                    <div class="flex justify-between text-gray-500 cursor-pointer pt-2">
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class="material-symbols-outlined">
+                                chat_bubble
+                            </span>
+                            96
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(0,186,124)]">
+                            <span class=" material-symbols-outlined">
+                                repeat
+                            </span>
+                            568
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[rgb(249,24,128)]">
+                            <span class=" material-symbols-outlined">
+                                favorite
+                            </span>
+                            1.6k
+                        </div>
+                        <div class="flex text-center gap-[1px] hover:text-[#1D9BF0]">
+                            <span class=" material-symbols-outlined">
+                                bar_chart
+                            </span>
+                            5.7k
+                        </div>
+                        <div class="flex text-center gap-[1px] ">
+                            <span class=" material-symbols-outlined hover:text-[#1D9BF0]">
+                                bookmark
+                            </span>
+                            <span class="material-symbols-outlined hover:text-[#1D9BF0]">
+                                upload
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-gray-600">
+            <!-- message ends -->
+
+        </div>
+        <!-- third part of the page -->
+        <div class=" w-[35%] p-4 space-y-3 lg:block hidden">
+            <div>
+                <input type="search" class="bg-gray-800 text-white p-2 rounded-3xl w-full h-10 pl-5"
+                    placeholder="Search">
+            </div>
+            <div class="border border-gray-600 rounded-2xl p-3 space-y-3">
+                <h1 class="text-xl font-bold">What's Happening</h1>
+                <div class="flex gap-2 cursor-pointer">
+                    <img class="w-16 h-16 rounded-xl"
+                        src="https://pbs.twimg.com/semantic_core_img/1805838245885775873/yQLrwqCI?format=jpg&name=240x240">
+                    <div>
+                        <div class="font-bold">Georgia vs Portugal</div>
+                        <div class="text-gray-500 text-[13px]">European Championship . Last night</div>
+                    </div>
+                </div>
+
+                <div class="flex-col cursor-pointer">
+                    <div class="font-bold">#OnePlusNordCE4lite</div>
+                    <div class="text-gray-500 text-[13px]">Sale is Live Now!</div>
+                    <div class="flex gap-1">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="invert w-4 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1q142lx r-ip8ujx r-1gs4q39 r-1bwzh9t">
+                            <g>
+                                <path
+                                    d="M19.498 3h-15c-1.381 0-2.5 1.12-2.5 2.5v13c0 1.38 1.119 2.5 2.5 2.5h15c1.381 0 2.5-1.12 2.5-2.5v-13c0-1.38-1.119-2.5-2.5-2.5zm-3.502 12h-2v-3.59l-5.293 5.3-1.414-1.42L12.581 10H8.996V8h7v7z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="text-gray-500 text-[13px]">Promoted by OnePlus India</div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between cursor-pointer">
+                    <div>
+                        <div class="text-gray-500 text-[13px]">Entertainment · Trending</div>
+                        <div class="font-bold">#KeerthySuresh</div>
+                        <div class="text-gray-500 text-[13px]">5211 posts</div>
+                    </div>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="flex justify-between cursor-pointer">
+                    <div>
+                        <div class="text-gray-500 text-[13px]">Trending in India</div>
+                        <div class="font-bold">Dimple Bhabhi</div>
+                        <div class="text-gray-500 text-[13px]">2550 posts</div>
+                    </div>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="flex justify-between cursor-pointer">
+                    <div>
+                        <div class="text-gray-500 text-[13px]">Entertainment · Trending</div>
+                        <div class="font-bold">#shameless</div>
+                        <div class="text-gray-500 text-[13px]">14.8K posts</div>
+                    </div>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="text-[#1D9BF0] cursor-pointer">Show more</div>
+            </div>
+            <div class="border border-gray-600 rounded-2xl p-3 space-y-3">
+                <h1 class="text-xl font-bold">Who to follow</h1>
+                <div class="flex justify-between items-center">
+                    <div class="flex gap-2">
+                        <img class="w-[40px] h-[45px] rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1789522034156007424/AAlObTeV_400x400.jpg">
+                        <div>
+                            <div class="font-bold">Shruti Garg</div>
+                            <div class="text-gray-500 text-sm">@ShrutiG234</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="text-black bg-white w-20 h-7 rounded-2xl font-bold">Follow</button>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="flex gap-2">
+                        <img class="w-[40px] h-[45px]"
+                            src="https://pbs.twimg.com/profile_images/1268207800313774080/KF9pXfXU_400x400.jpg">
+                        <div>
+                            <div class="font-bold">Microsoft Azure</div>
+                            <div class="text-gray-500 text-sm">@Azure</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="text-black bg-white w-20 h-7 rounded-2xl font-bold">Follow</button>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="flex gap-2">
+                        <img class="w-[40px] h-[45px] rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1700366102919106560/Q07PTW64_400x400.jpg">
+                        <div>
+                            <div class="font-bold">Alisha Kausheen</div>
+                            <div class="text-gray-500 text-sm">@Alisha_kausheen</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="text-black bg-white w-20 h-7 rounded-2xl font-bold">Follow</button>
+                    </div>
+                </div>
+                <div class="text-[#1D9BF0] cursor-pointer">Show more</div>
+            </div>
+            <div class="flex justify-between px-4">
+                <a class="text-gray-500 text-[14px] hover:underline" target="_blank" href="https://x.com/en/tos">Terms
+                    of Service</a>
+                <a class="text-gray-500 text-[14px] hover:underline" target="_blank"
+                    href="https://x.com/en/privacy">Privacy Policy</a>
+                <a class="text-gray-500 text-[14px] hover:underline" target="_blank"
+                    href="https://help.twitter.com/en/rules-and-policies/x-cookies">Cookie Policy</a>
+            </div>
+            <div class="flex justify-between px-4">
+                <a class="text-gray-500 text-[14px] hover:underline" target="_blank"
+                    href="https://help.x.com/en/resources/accessibility">Accessibility</a>
+                <a class="text-gray-500 text-[14px] hover:underline" target="_blank"
+                    href="https://business.x.com/en/help/troubleshooting/how-x-ads-work.html">Ads info</a>
+                <p class="text-gray-500 text-[12px]">&copy; 2024 X Corp.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
